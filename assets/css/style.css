@@ -1,0 +1,26 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  background-color: rgb(174, 116, 228);
+  font-size: 1.5rem;
+}
+
+#calendario {
+  background: rgb(46, 13, 76);
+  padding: 0.5%;
+}
+
+#calendario > div {
+  display: inline-block;
+  width: 14%;
+  margin-bottom: 0.5%;
+  text-align: center;
+}
+#calendario > div:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+.selected {
+  border: 1px solid yellow;
+  border-radius: 5px;
+}

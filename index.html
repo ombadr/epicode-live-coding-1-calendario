@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Calendario del mese</title>
+  </head>
+  <body>
+    <main>
+      <h1></h1>
+      <div id="calendario">
+        <!-- 
+        <div><h3>1</h3></div>
+        <div><h3>2</h3></div>
+        <div><h3>3</h3></div>
+        <div><h3>4</h3></div>
+        <div><h3>5</h3></div>
+
+        <div><h3>1</h3></div>
+        <div><h3>2</h3></div>
+        <div><h3>3</h3></div>
+        <div><h3>4</h3></div>
+        <div><h3>5</h3></div>
+
+        -->
+      </div>
+
+      <div id="addMeeting">
+        <h2>Aggiungi Appuntamento</h2>
+
+        <form action="">
+          <div>
+            <label for="nuovoMeetingGiorno">Giorno evento</label>
+            <input
+              type="text"
+              id="nuovoMeetingGiorno"
+              id="nuovoMeetingGiorno"
+              placeholder="Scegli un giorno"
+            />
+          </div>
+          <div>
+            <label for="nuovoMeetingOrario">Orario evento</label>
+            <input
+              type="time"
+              id="nuovoMeetingOrario"
+              id="nuovoMeetingOrario"
+            />
+          </div>
+          <div>
+            <label for="nuovoMeetingNome">Nome evento</label>
+            <input
+              type="text"
+              id="nuovoMeetingNome"
+              id="nuovoMeetingNome"
+              placeholder="Dai un nome all'evento"
+            />
+          </div>
+          <button type="submit">Salva appuntamento</button>
+        </form>
+      </div>
+
+      <section id="appuntamenti">
+        <h2>Mostra appuntamenti per il giorno:</h2>
+        <ul></ul>
+      </section>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
